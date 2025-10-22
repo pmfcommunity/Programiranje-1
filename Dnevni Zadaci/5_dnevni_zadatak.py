@@ -11,12 +11,12 @@ print("-------------x-33--")
 print("--------------x-3--")
 
 # DRUGI NACIN (Bez rucnog pisanja minusa)
-print(f"{'x-333333--':->17}--")
-print(f"{'x--33333--':->17}--")
-print(f"{'x---3333--':->17}--")
-print(f"{'x----333--':->17}--")
-print(f"{'x-----33--':->17}--")
-print(f"{'x------3--':->17}--")
+print(f"{'x-333333':->17}--")
+print(f"{'x-33333':->17}--")
+print(f"{'x-3333':->17}--")
+print(f"{'x-333':->17}--")
+print(f"{'x-33':->17}--")
+print(f"{'x-3':->17}--")
 
 # ":->" - zelimo da znak '-' ispise na pocetku stringa. 
 # 17 - svaki string u ispisu (prvi nacin) ima 17 karaktera. Ovo omogucava da ispis na ovakav nacin bude isti kao 
