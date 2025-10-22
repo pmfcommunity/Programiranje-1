@@ -14,7 +14,13 @@ print('-'*30)
 print(f"Zbir    : {broj1 + broj2}")
 print(f"Razlika : {broj1 - broj2}")
 print(f"Proizvod: {broj1 * broj2}")
-print(f"Kolicnik: {broj1 / broj2}")
+print(f"Kolicnik: {broj1 // broj2}")
+
+# NAPOMENA ZA KOLICNIK: 
+# Zapis kao "broj1 / broj2" je tacan, ali u postavci zadatka ispis kolicnika je cijeli broj.
+# U Pythonu, ispis kolicnika je uvijek tipa float (decimalni brojevi), bez obzira jesu li uneseni brojevi tipa int
+# (cijeli brojevi). Tako da ako je prvi uneseni broj '12' a drugi '2', ispis ce biti '4.0' umjesto samo '4'.
+# Operacija '//' se koristi za cjelobrojno djeljenje i omogucava da se rezultat ispise kao cijeli broj. 
 
 # Mogli smo ispis takodjer napisati kao, npr:
 # print("Zbir : ", broj1 + broj2) itd, ali ovaj nacin je laksi i citljiviji.
