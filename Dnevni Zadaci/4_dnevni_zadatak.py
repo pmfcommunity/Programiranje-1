@@ -1,4 +1,5 @@
-# Kreirajte program koji racuna i ispisuje vrijednost izraza naveden u PDF fajlu.
+# Kreirajte program koji racuna i ispisuje vrijednost izraza naveden u PDF fajlu:
+# https://pmfunsaba.sharepoint.com/sites/KN100SIT100-Programiranje12526/Zajednicki%20dokumenti/Dnevni%20zadaci/Dnevni%20zadatak%204.pdf
 # U novom redu ispisite vrijednost izraza ukoliko je umjesto 2^10 vrijednost 1^10.
 # TESTIRANJE: Za originalni izraz rezultat treba da bude 0.379564. Za drugi izraz A poprima vrijednost 0.38067.
 
