@@ -1,5 +1,6 @@
 # Napisati program koji od korisnika traži unos tri cijela broja x, y i z. Program ispisuje da li su svi 
 # uneseni brojevi različiti, da li postoje dva jednaka ili su svi jednaki? Ispisuje se prikladna poruka.
+# https://samarski.craft.me/2025P1AV3
 
 x = int(input("Unesite cijeli broj x: "))
 y = int(input("Unesite cijeli broj y: "))
