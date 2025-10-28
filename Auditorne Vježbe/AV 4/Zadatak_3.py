@@ -1,17 +1,14 @@
-# Napisati program koji od korisnika trazi unos broja n.
-# Korisnik zatim unosi n brojeva. Program ispisuje razliku najveceg i najmanjeg unesenog broja.
+# Napisati program koji od korisnika trazi unos brojeva, sve dok se ne unese negativan broj.
+# Program ispisuje ukupnu sumu i proizvod unesenih brojeva.
 
-n = int(input("Unesite broj n: "))
+suma = 0
+proizvod = 1
 
-i = 0 
-lista = []
+while True:
+    k = int(input("Unesite broj: "))
+    if k < 0:
+        break 
+    suma += k 
+    proizvod *= k 
 
-while i < n:
-    k = int(input("Unesite broj k: "))
-    lista.append(k)
-    i += 1
-    
-maximum = max(lista)
-minimum = min(lista)
-
-print(f"Razlika najveceg i najmanjeg unesenog broja je {maximum - minimum}")
+print(f"Suma unesenih brojeva iznosi: {suma}\nProizvod unesenih brojeva iznosi: {proizvod}")  
