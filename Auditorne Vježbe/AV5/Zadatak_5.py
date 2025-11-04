@@ -3,7 +3,9 @@
 
 n = int(input())
 
+duzina = len(str(n ** 2))
+
 for i in range(1, n ** 2 + 1):
-    print(f"{i:2}", end=" ")
+    print(f"{i:{duzina}}", end=" ")
     if i % n == 0:
         print("")
