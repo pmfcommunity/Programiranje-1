@@ -42,9 +42,7 @@ print(lista_3)
 
 # Otpakivanje
 print()
-a, b, c = lista_2
-print(lista_2)
-print(a, b, c) 
+print(*lista_2) 
 
 # Dodjela x * y 
 print()
