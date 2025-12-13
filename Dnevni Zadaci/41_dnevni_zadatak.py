@@ -10,8 +10,8 @@ lista_brojeva = []
 while True: 
     n = int(input())
     if  prethodni_broj != 0: 
-        if n == prethodni_broj:
-            break
+        if n == prethodni_broj: 
+            break   
         else: 
             prethodni_broj = n 
             lista_brojeva.append(n)
