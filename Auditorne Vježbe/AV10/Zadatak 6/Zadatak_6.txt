@@ -1,0 +1,5 @@
+LV-Test-1 8.5
+I-parcijalna 15
+LV-Test-2 7
+Zavrsni-ispit 35
+Ukupno 65.5
