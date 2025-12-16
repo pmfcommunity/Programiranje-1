@@ -1,0 +1,28 @@
+P 
+Banja Luka -3.2 
+Mostar 5.8 
+Sarajevo -7.1 
+U 
+Banja Luka -1.3 
+Mostar 7.2 
+Sarajevo -4 
+S 
+Banja Luka -2.4 
+Mostar 6.2 
+Sarajevo -6.1 
+C 
+Banja Luka -3.6 
+Mostar 6.5 
+Sarajevo -6.5 
+P 
+Banja Luka -2.8 
+Mostar 8.0 
+Sarajevo -6.2 
+S 
+Banja Luka -3.1 
+Mostar 7.1 
+Sarajevo -6.5 
+N 
+Banja Luka -3.2 
+Mostar 8.2 
+Sarajevo -6.9
