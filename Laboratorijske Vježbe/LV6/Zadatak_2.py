@@ -18,6 +18,11 @@ for broj in lista_brojeva:
     print(broj, end=" ")
 print()
 
-for broj in set(lista_brojeva):
+lista_unikatnih = []
+while len(lista_unikatnih) < n:
+    broj = random.randint(a, b)
+    if broj not in lista_unikatnih:
+        lista_unikatnih.append(broj)
+for broj in lista_unikatnih: 
     print(broj, end=" ")
 print()
